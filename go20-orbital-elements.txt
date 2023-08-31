@@ -1,0 +1,124 @@
+*******************************************************************************
+JPL/HORIZONS                     (2008 GO20)               2021-Jul-28 00:35:21
+Rec #:50102003 (+COV) Soln.date: 2021-Jul-21_07:12:02     # obs: 82 (2008-2021)
+ 
+IAU76/J2000 helio. ecliptic osc. elements (au, days, deg., period=Julian yrs):
+ 
+  EPOCH=  2457364.5 ! 2015-Dec-08.00 (TDB)         Residual RMS= .246
+   EC= .4906900597910615   QR= .9641234505796336   TP= 2457500.1934582796
+   OM= 119.6040364996967   W=  160.6053074314011   IN= 2.249134408107569
+   A= 1.892999477261553    MA= 308.6503788402852   ADIST= 2.821875503943473
+   PER= 2.60456            N= .378423694           ANGMOM= .020622506
+   DAN= 2.6756             DDN= .98248             L= 280.2231707
+   B= .7467077             MOID= .00866355         TP= 2016-Apr-21.6934582796
+ 
+Asteroid physical parameters (km, seconds, rotational period in hours):
+   GM= n.a.                RAD= n.a.               ROTPER= n.a.
+   H= 22.2                 G= .150                 B-V= n.a.
+                           ALBEDO= n.a.            STYP= n.a.
+ 
+ASTEROID comments: 
+1: soln ref.= JPL#23, OCC=0
+2: source=ORB
+*******************************************************************************
+ 
+ 
+*******************************************************************************
+Ephemeris / WWW_USER Wed Jul 28 00:35:21 2021 Pasadena, USA      / Horizons
+*******************************************************************************
+Target body name: (2008 GO20)                     {source: JPL#23}
+Center body name: Sun (10)                        {source: DE441}
+Center-site name: BODY CENTER
+*******************************************************************************
+Start time      : A.D. 2021-Jul-25 00:00:00.0000 TDB
+Stop  time      : A.D. 2021-Jul-27 00:00:00.0000 TDB
+Step-size       : 1440 minutes
+*******************************************************************************
+Center geodetic : 0.00000000,0.00000000,0.0000000 {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.00000000,0.00000000,0.0000000 {E-lon(deg),Dxy(km),Dz(km)}
+Center radii    : 696000.0 x 696000.0 x 696000.0 k{Equator, meridian, pole}    
+Keplerian GM    : 2.9591220828411951E-04 au^3/d^2
+Small perturbers: Yes                             {source: SB441-N16}
+Output units    : AU-D, deg, Julian Day Number (Tp)
+Output type     : GEOMETRIC osculating elements
+Output format   : 10
+Reference frame : Ecliptic of J2000.0
+*******************************************************************************
+Initial IAU76/J2000 heliocentric ecliptic osculating elements (au, days, deg.):
+  EPOCH=  2457364.5 ! 2015-Dec-08.00 (TDB)         Residual RMS= .246          
+   EC= .4906900597910615   QR= .9641234505796336   TP= 2457500.1934582796      
+   OM= 119.6040364996967   W=  160.6053074314011   IN= 2.249134408107569       
+  Equivalent ICRF heliocentric cartesian coordinates (au, au/d):
+   X=-1.692568506306284E+00  Y= 2.272037423687665E-01  Z= 1.557824608684392E-01
+  VX= 4.672480479541982E-03 VY=-1.189130204930056E-02 VZ=-5.056170805814880E-03
+Asteroid physical parameters (km, seconds, rotational period in hours):        
+   GM= n.a.                RAD= n.a.               ROTPER= n.a.                
+   H= 22.2                 G= .150                 B-V= n.a.                   
+                           ALBEDO= n.a.            STYP= n.a.                  
+*******************************************************************************
+JDTDB
+   EC    QR   IN
+   OM    W    Tp
+   N     MA   TA
+   A     AD   PR
+*******************************************************************************
+$$SOE
+2459420.500000000 = A.D. 2021-Jul-25 00:00:00.0000 TDB 
+ EC= 4.914992119525329E-01 QR= 9.633545808004688E-01 IN= 2.250514792781518E+00
+ OM= 1.195785226498257E+02 W = 1.606110664085596E+02 Tp=  2459402.477988831699
+ N = 3.779742980231174E-01 MA= 6.811857020325600E+00 TA= 2.255270959088474E+01
+ A = 1.894499681110704E+00 AD= 2.825644781420940E+00 PR= 9.524457135918324E+02
+2459421.500000000 = A.D. 2021-Jul-26 00:00:00.0000 TDB 
+ EC= 4.914570048986834E-01 QR= 9.633360517608927E-01 IN= 2.250333090697488E+00
+ OM= 1.195782151244384E+02 W = 1.606024188940819E+02 Tp=  2459402.470856922679
+ N = 3.780322649436559E-01 MA= 7.193630057407397E+00 TA= 2.376796295658956E+01
+ A = 1.894306009600952E+00 AD= 2.825275967441012E+00 PR= 9.522996669441865E+02
+2459422.500000000 = A.D. 2021-Jul-27 00:00:00.0000 TDB 
+ EC= 4.913961946721480E-01 QR= 9.633173868775604E-01 IN= 2.250097073177271E+00
+ OM= 1.195776902651370E+02 W = 1.605939885112402E+02 Tp=  2459402.463592827786
+ N = 3.781110620635923E-01 MA= 7.575987195789422E+00 TA= 2.497628438751516E+01
+ A = 1.894042822303688E+00 AD= 2.824768257729816E+00 PR= 9.521012107798467E+02
+$$EOE
+*******************************************************************************
+Coordinate system description:
+
+  Ecliptic at the standard reference epoch
+
+    Reference epoch: J2000.0
+    X-Y plane: adopted Earth orbital plane at the reference epoch
+               Note: obliquity of 84381.448 arcseconds (IAU76) wrt ICRF equator
+    X-axis   : ICRF
+    Z-axis   : perpendicular to the X-Y plane in the directional (+ or -) sense
+               of Earth's north pole at the reference epoch.
+
+  Symbol meaning [1 au= 149597870.700 km, 1 day= 86400.0 s]:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      EC     Eccentricity, e
+      QR     Periapsis distance, q (au)
+      IN     Inclination w.r.t X-Y plane, i (degrees)
+      OM     Longitude of Ascending Node, OMEGA, (degrees)
+      W      Argument of Perifocus, w (degrees)
+      Tp     Time of periapsis (Julian Day Number)
+      N      Mean motion, n (degrees/day)
+      MA     Mean anomaly, M (degrees)
+      TA     True anomaly, nu (degrees)
+      A      Semi-major axis, a (au)
+      AD     Apoapsis distance (au)
+      PR     Sidereal orbit period (day)
+
+Geometric states/elements have no aberrations applied.
+
+
+ Computations by ...
+     Solar System Dynamics Group, Horizons On-Line Ephemeris System
+     4800 Oak Grove Drive, Jet Propulsion Laboratory
+     Pasadena, CA  91109   USA
+     Information  : https://ssd.jpl.nasa.gov/
+     Documentation: https://ssd.jpl.nasa.gov/?horizons_doc
+     Connect      : https://ssd.jpl.nasa.gov/?horizons (browser)
+                    telnet ssd.jpl.nasa.gov 6775       (command-line)
+                    e-mail command interface available
+                    Script and CGI interfaces available
+     Author       : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************

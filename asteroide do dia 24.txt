@@ -1,0 +1,32 @@
+(2008 GO20)
+Element 	Value 	Uncertainty (1-sigma)  	 Units 
+e 	.4911086333844299 	5.6281e-06 	 
+a 	1.893204117483213 	1.7949e-05 	au
+q 	.9634352306282569 	1.5225e-06 	au
+i 	2.249858058757811 	1.8566e-05 	deg
+o 	119.5822524225735 	0.00055105 	deg
+period 	160.6555207091308 	0.00042257 deg
+Mean anomaly 	357.8003125445014 0.048722 deg
+tp 	2459402.313705987262 (2021-Jul-06.81370599) 	0.12885 	TDB
+period 	951.4688780820948 2.60 	0.013531 3.705e-05 d yr
+n 	.3783623493031775 	5.3809e-06 deg/d
+Q 	2.82297300433817 	2.6765e-05	au
+////
+
+
+ASCII File Column Headings
+Num 	  	Number assigned to the asteroid or comet. Numbers are only assigned to secure short-period (<200 year) comets.
+Name 	  	Name given to the numbered asteroid or comet.
+Designation 	  	Unnumbered asteroid's provisional designation.
+Epoch 	(MJD) 	Epoch of the elements represented as the Modified Julian Date (MJD), which is defined as the Julian date - 2400000.5.
+a 	(AU) 	Semimajor axis of the orbit (asteroids only).
+q 	(AU) 	Perihelion distance (comets only).
+e 	  	Eccentricity of the orbit.
+i 	(deg.) 	Inclination of the orbit with respect to the J2000 ecliptic plane.
+w 	(deg.) 	Argument of perihelion (J2000-Ecliptic).
+Node (o)	(deg.) 	Longitude of the ascending node (J2000-Ecliptic).
+M 	(deg.) 	Mean anomaly at epoch (asteroids only).
+Tp 	  	Time of perihelion passage (comets only), formatted as a calendar date (YYYYMMDD.DDD) where "YYYY" is the year, "MM" is the numeric month, and "DD.DDD" is the day and day fraction.
+H 	(mag.) 	Absolute magnitude (asteroids only and set to "99.00" when unknown).
+G 	  	Magnitude slope parameter (asteroids only and set to "0.00" when H is unknown).
+Ref 	  	Orbit solution reference.	 

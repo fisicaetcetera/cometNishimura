@@ -1,0 +1,88 @@
+ 
+*******************************************************************************
+Ephemeris / WWW_USER Sun Jul 25 15:16:04 2021 Pasadena, USA      / Horizons
+*******************************************************************************
+Target body name: Earth (399)                     {source: DE441}
+Center body name: Sun (10)                        {source: DE441}
+Center-site name: BODY CENTER
+*******************************************************************************
+Start time      : A.D. 2021-Jul-25 00:00:00.0000 TDB
+Stop  time      : A.D. 2021-Jul-27 00:00:00.0000 TDB
+Step-size       : 1440 minutes
+*******************************************************************************
+Center geodetic : 0.00000000,0.00000000,0.0000000 {E-lon(deg),Lat(deg),Alt(km)}
+Center cylindric: 0.00000000,0.00000000,0.0000000 {E-lon(deg),Dxy(km),Dz(km)}
+Center radii    : 696000.0 x 696000.0 x 696000.0 k{Equator, meridian, pole}    
+Keplerian GM    : 2.9591309705336418E-04 au^3/d^2
+Output units    : AU-D, deg, Julian Day Number (Tp)
+Output type     : GEOMETRIC osculating elements
+Output format   : 10
+Reference frame : Ecliptic of J2000.0
+*******************************************************************************
+JDTDB
+   EC    QR   IN
+   OM    W    Tp
+   N     MA   TA
+   A     AD   PR
+*******************************************************************************
+$$SOE
+2459420.500000000 = A.D. 2021-Jul-25 00:00:00.0000 TDB 
+ EC= 1.750844468224832E-02 QR= 9.816244400314255E-01 IN= 2.409208656553317E-03
+ OM= 1.987122513853449E+02 W = 2.653648744203164E+02 Tp=  2459584.095518268645
+ N = 9.869153898409887E-01 MA= 1.985450653114818E+02 TA= 1.979199480524512E+02
+ A = 9.991174323263819E-01 AD= 1.016610424621339E+00 PR= 3.647729113414707E+02
+2459421.500000000 = A.D. 2021-Jul-26 00:00:00.0000 TDB 
+ EC= 1.741819696745500E-02 QR= 9.817749229948745E-01 IN= 2.573137177615841E-03
+ OM= 1.879007985332064E+02 W = 2.764083999022380E+02 Tp=  2459584.356978713535
+ N = 9.868244451868701E-01 MA= 1.992887523362213E+02 TA= 1.986427233698966E+02
+ A = 9.991788164250748E-01 AD= 1.016582709855275E+00 PR= 3.648065284112703E+02
+2459422.500000000 = A.D. 2021-Jul-27 00:00:00.0000 TDB 
+ EC= 1.729507162823746E-02 QR= 9.819949393209318E-01 IN= 2.829289285081231E-03
+ OM= 1.785814341572228E+02 W = 2.858799820097933E+02 Tp=  2459584.545210376382
+ N = 9.866782451352615E-01 MA= 2.001135161933079E+02 TA= 1.994455741570535E+02
+ A = 9.992775155284841E-01 AD= 1.016560091736036E+00 PR= 3.648605832498601E+02
+$$EOE
+*******************************************************************************
+Coordinate system description:
+
+  Ecliptic at the standard reference epoch
+
+    Reference epoch: J2000.0
+    X-Y plane: adopted Earth orbital plane at the reference epoch
+               Note: obliquity of 84381.448 arcseconds (IAU76) wrt ICRF equator
+    X-axis   : ICRF
+    Z-axis   : perpendicular to the X-Y plane in the directional (+ or -) sense
+               of Earth's north pole at the reference epoch.
+
+  Symbol meaning [1 au= 149597870.700 km, 1 day= 86400.0 s]:
+
+    JDTDB    Julian Day Number, Barycentric Dynamical Time
+      EC     Eccentricity, e
+      QR     Periapsis distance, q (au)
+      IN     Inclination w.r.t X-Y plane, i (degrees)
+      OM     Longitude of Ascending Node, OMEGA, (degrees)
+      W      Argument of Perifocus, w (degrees)
+      Tp     Time of periapsis (Julian Day Number)
+      N      Mean motion, n (degrees/day)
+      MA     Mean anomaly, M (degrees)
+      TA     True anomaly, nu (degrees)
+      A      Semi-major axis, a (au)
+      AD     Apoapsis distance (au)
+      PR     Sidereal orbit period (day)
+
+Geometric states/elements have no aberrations applied.
+
+
+ Computations by ...
+     Solar System Dynamics Group, Horizons On-Line Ephemeris System
+     4800 Oak Grove Drive, Jet Propulsion Laboratory
+     Pasadena, CA  91109   USA
+     Information  : https://ssd.jpl.nasa.gov/
+     Documentation: https://ssd.jpl.nasa.gov/?horizons_doc
+     Connect      : https://ssd.jpl.nasa.gov/?horizons (browser)
+                    telnet ssd.jpl.nasa.gov 6775       (command-line)
+                    e-mail command interface available
+                    Script and CGI interfaces available
+     Author       : Jon.D.Giorgini@jpl.nasa.gov
+*******************************************************************************
+
