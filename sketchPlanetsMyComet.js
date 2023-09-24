@@ -271,7 +271,7 @@ function setup() {
    
         //draw comet Nishimura
      push();
-     translate(xcomN,-ycomN,zcomN);
+     translate(xcomN,-ycomN,-zcomN);
      rotateZ(PI);
      //stroke(0,111,255);
      texture(comet);
